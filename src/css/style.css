@@ -1,0 +1,448 @@
+body{
+    font-family: "Segoe print", Arial, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background: #344051;
+}
+.logo{
+    color: white;
+    font-size: 25px;
+    line-height: 60px;
+    padding-left: 388px;
+    float: left;
+}
+.menu{
+    float: left;
+    padding-left: 430px;
+}
+.menu li{
+    float: left;
+    line-height: 60px;
+    color: white;
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.main{
+    width:100%;
+    height: calc(100% - 60px);
+    background: url(../img/boy.png) 90% 100%/auto 90% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
+}
+.title__container{
+    float: left;
+    margin: 432px 0px 0px 404px;
+    color: #2c384a;
+    text-align: center;
+    
+}
+.title__container h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.title__container h4{
+    margin-top: 40px;
+    font-size: 25px;
+    color: #79818d;
+    
+}
+.title__container input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 7px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 15px;
+    margin: 60px 15px;
+}
+/*дз*/
+
+.about {
+    width: 100%;
+    height: 720px;
+    background: none;
+}
+.about_container{
+    max-width: 40%;
+    margin: 0 auto;
+}
+.about_container h1{
+    margin: 0px auto;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #263244;
+    padding: 100px 0px 30px 0px;
+}
+.ofb{
+    border-bottom: 4px solid #d17700;
+    width: 70px;
+    margin: 0 auto;
+}
+.about_image{
+    border: 0px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 60px auto 0px;
+    background: url(../img/boy.png) 50% 30%/110% no-repeat;
+}
+.about_description{
+    color: #3f495a;
+    margin: 20px auto;
+    font-size: 13px;
+}
+
+.about_container input{
+    display: block;
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6f707e;
+    background: url(../img/dl.png) 5px/auto 15px no-repeat, none;
+    border-radius: 7px;
+    color: #6f707e;
+    font-size: 13px;
+    padding: 0px 10px 0px 25px;
+    margin: 15px auto;
+}
+/*___________________________________*/
+.skills {
+    width: 100%;
+    height: 720px;
+    background: url(../img/skillsbg.png) center/cover no-repeat;
+}
+.skills_container{
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.skills_container h1{
+    margin: 0px auto 0px;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #263244;
+    padding: 100px 0px 30px 0px;
+    font-weight: bold;
+}
+.skills_list{
+    margin: 100px auto;
+    float: left;
+}
+.skills_list h2{
+    text-transform: capitalize;
+    color: #cf7600;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 0 15px 0;
+}
+.skills_list li{
+    float: left;
+    width: 21%;
+    color: #3f495a;
+    margin: 0px 20px;
+    padding: 80px 0px;
+    font-size: 14px;
+}
+.skills1{
+    background: url(../img/web.png) 50% 0% no-repeat
+}
+.skills2{
+    background: url(../img/dev.png) 50% 0% no-repeat
+}
+.skills3{
+    background: url(../img/ceo.png) 50% 0% no-repeat
+}
+.skills4{
+    background: url(../img/mega.png) 50% 0% no-repeat
+}
+/*----------------------*/
+.cases{
+    width: 100%;
+    height: 1100px;
+    background: none;
+}
+.cases_container{
+    
+}
+.cases_container h1{
+    margin: 0px auto 0px;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #384354;
+    padding: 100px 0px 30px 0px;
+    font-weight: bold;
+}
+.cases_updesc{
+    text-align: center;
+    color: #384354;
+    margin: 35px auto;
+    font-size: 12px;
+}
+.cases_img{
+    width: 1170px;
+    height: 600px;
+    margin: 0 auto;
+    background: url(../img/case_screen.jpg) 100% 0% no-repeat;
+}
+.cases_client{
+    margin: 20px 80px 0px 370px;
+    color: #3f495a;
+    line-height: 30px;
+    float: left;
+    font-size: 12px;
+}
+.cases_client h3{
+    text-transform: uppercase;
+    color: #384354;
+    font-weight: bold;
+    font-size: 18px;
+}
+.cases_container input{
+    display: block;
+    border: 2px solid #63b5ae;
+    background: #63b5ae;
+    border-radius: 7px;
+    height: 40px;
+    width: 200px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 20px 0;
+}
+.cases_downdesc{
+    width: 61%;
+    margin: 20px auto;
+    font-size: 14px; 
+    color: #3f495a;
+}
+.cases_downdesc h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #384354;
+}
+/*----------------------*/
+.payment{
+    width: 100%;
+    height: auto;
+    background: none;
+}
+.payment_container{
+    margin: 0 auto 150px;
+    color: #1c2534;
+    width: 30%;
+}
+.payment_container h1{
+    margin: 0px auto 0px;
+    text-align: center;
+    font-size: 30px;
+    padding: 50px 0px 30px 0px;
+    font-weight: bold;
+}
+.payment_container h2{
+    margin: 0px auto 0px;
+    text-align: left;
+    font-size: 22px;
+    padding: 20px 0px 5px 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.payment_container select{
+    background: #eee;
+    width: 100%;
+    height: 40px;
+    padding: 0px 10px;
+}
+.payresult{
+    font-size: 18px;
+    margin: 30px auto;
+}
+.payresult ul{
+    margin: 0px auto;
+    border: 2px solid #d1d1d1;
+}
+.payresult li{
+    padding: 15px 0;
+    width: 50%;
+    float: left;
+    font-weight: bold;
+}
+.paylistresult {
+    text-align: right;
+}
+/*----------------------*/
+.stats {
+    width: 100%;
+    height: 500px;
+    background: url(../img/statsbg.png) center/cover no-repeat;
+}
+.stats_container{
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+}
+.stats_container h1{
+    margin: 0px auto 0px;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #323e4f;
+    padding: 100px 0px 30px 0px;
+    font-weight: bold;
+}
+.stats_list{
+    width: 100%;
+    margin: 100px auto;
+    float: left;
+}
+.stats_list h2{
+    color: #323e4f;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 0 15px 0;
+}
+.stats_list li{
+    float: left;
+    width: 20%;
+    color: #3f495a;
+    margin: 0px 30px;
+    padding: 80px 0px;
+    font-size: 14px;
+}
+.stats1{
+    background: url(../img/stats1.png) 50% 0% no-repeat
+}
+.stats2{
+    background: url(../img/stats2.png) 50% 0% no-repeat
+}
+.stats3{
+    background: url(../img/stats3.png) 50% 0% no-repeat
+}
+.stats4{
+    background: url(../img/stats4.png) 50% 0% no-repeat
+}
+/*---------------*/
+.feedback{
+    width: 100%;
+    height: 590px;
+    background: none;
+}
+.feedback_container{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: #243042;
+}
+.feedback_container h1{
+    margin: 0px auto;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 100px 0px 30px 0px;
+}
+.feedback_image{
+    border: 0px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 60px auto 0px;
+    background: url(../img/fb1.png) 50% 30%/110% no-repeat;
+}
+.feedback_description1{
+    margin: 20px auto;
+    font-size: 13px;
+}
+.feedback_selector{
+/*    color: #d17700;*/
+/*    не понимаю, как это работает, много пробовал*/
+}
+/*----------------*/
+.cont{
+    width: 100%;
+    height: 808px;
+    text-align: center;
+    color: white;
+    background: url(../img/contbg.png)
+}
+.cont_container{
+    width: 60%;
+    margin: 0 auto;
+}
+.cont_container h1{
+    margin: 0px auto;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 100px 0px 30px 0px;
+}
+.cont_desc{
+    margin: 30px auto;
+    font-size: 13px;
+}
+.cont_uplist{
+   
+}
+.cont_uplist li{
+    float: left;
+    width: 33%;
+    font-size: 14px;
+    padding: 30px 0;
+}
+.cont1{
+    background: url(../img/cont1up.png) 50% 0% no-repeat;
+}
+.cont2{
+    background: url(../img/cont2up.png) 50% 0% no-repeat;
+}
+.cont3{
+    background: url(../img/cont3up.png) 50% 0% no-repeat;
+}
+.cont_container h2{
+    margin: 0px auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 100px 0px 30px 0px;
+}
+.cont_form{
+    height: 225px;
+}
+.cont_smallform{
+    padding: 10px;
+    margin: 10px 0;
+    width: 48%;
+    opacity: 70%;
+}
+.cont_bigform{
+    width: 96%;
+    height: 96px;
+    opacity: 70%;
+    padding: 10px;
+/*    Не понял, кск сделать, чтобы там текст не одной строкой был*/
+}
+.cont_button{
+    border: 2px solid white;
+    border-radius: 7px;
+    background: none;
+    color: white;
+    width: 130px;
+    height: 45px;
+    padding: 10px;
+    margin: 30px 1%;
+}
+.foot{
+    width: 100%;
+    height: 100px;
+    background: #354051;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
